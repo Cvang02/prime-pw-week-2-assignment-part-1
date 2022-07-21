@@ -74,10 +74,10 @@ if(luckyNumber === 02 && adventurous === true) {
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 
-if(pets <= allowedPets) {
+if(pets < allowedPets) {
     console.log ('I can have more pets');
     }
-        if (pets == allowedPets){
+        if (pets === allowedPets){
             console.log ('I have enough pets!')
 
         }
